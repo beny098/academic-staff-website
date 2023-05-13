@@ -1,0 +1,35 @@
+{
+  "name": "mern_a_to_z",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently \"npm run app\" \"cd my-app && npm start\"",
+    "server": "nodemon app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beny098/academic-staff-website.git"
+  },
+  "author": "Ben Steele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beny098/academic-staff-website/issues"
+  },
+  "homepage": "https://github.com/beny098/academic-staff-website#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^5.5.15",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
