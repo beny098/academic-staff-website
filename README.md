@@ -1,3 +1,3 @@
-# mern_stack
+# academic-staff-website
 
-creating a mern app for practice 
+creating R&D project
