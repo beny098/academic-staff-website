@@ -7,10 +7,10 @@ class UpdateBookInfo extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: '',
-      isbn: '',
-      author: '',
-      description: ''
+      fullname: '',
+      email: '',
+      position: '',
+      degrees: ''
     };
   }
 
@@ -21,10 +21,10 @@ class UpdateBookInfo extends Component {
       .then(res => {
         // this.setState({...this.state, book: res.data})
         this.setState({
-          title: res.data.title,
-          isbn: res.data.isbn,
-          author: res.data.author,
-          description: res.data.description
+          fullname: res.data.fullname,
+          email: res.data.email,
+          position: res.data.position,
+          degrees: res.data.degrees
         })
       })
       .catch(err => {
@@ -40,10 +40,10 @@ class UpdateBookInfo extends Component {
     e.preventDefault();
 
     const data = {
-      title: this.state.title,
-      isbn: this.state.isbn,
-      author: this.state.author,
-      description: this.state.description
+      fullname: this.state.fullname,
+      email: this.state.email,
+      position: this.state.position,
+      degrees: this.state.degrees
     };
 
     axios
@@ -79,50 +79,50 @@ class UpdateBookInfo extends Component {
           <div className="col-md-8 m-auto">
           <form noValidate onSubmit={this.onSubmit}>
             <div className='form-group'>
-              <label htmlFor="title">Fullname</label>
+              <label htmlFor="fullname">Fullname</label>
               <input
                 type='text'
-                placeholder='Title of the Book'
-                name='title'
+                placeholder='Fullname'
+                name='fullname'
                 className='form-control'
-                value={this.state.title}
+                value={this.state.fullname}
                 onChange={this.onChange}
               />
             </div>
             <br />
 
             <div className='form-group'>
-            <label htmlFor="isbn">Email</label>
+            <label htmlFor="email">Email</label>
               <input
                 type='text'
-                placeholder='ISBN'
-                name='isbn'
+                placeholder='Email'
+                name='email'
                 className='form-control'
-                value={this.state.isbn}
+                value={this.state.email}
                 onChange={this.onChange}
               />
             </div>
 
             <div className='form-group'>
-            <label htmlFor="author">Position</label>
+            <label htmlFor="position">Position</label>
               <input
                 type='text'
-                placeholder='Author'
-                name='author'
+                placeholder='position'
+                name='position'
                 className='form-control'
-                value={this.state.author}
+                value={this.state.position}
                 onChange={this.onChange}
               />
             </div>
 
             <div className='form-group'>
-            <label htmlFor="description">Degrees</label>
+            <label htmlFor="degrees">Degrees</label>
               <input
                 type='text'
-                placeholder='Describe this book'
-                name='description'
+                placeholder='Degrees'
+                name='degrees'
                 className='form-control'
-                value={this.state.description}
+                value={this.state.degrees}
                 onChange={this.onChange}
               />
             </div>

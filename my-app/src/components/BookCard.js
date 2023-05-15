@@ -13,10 +13,10 @@ const ProfileCard = (props) => {
             <div className="desc">
                 <h2>
                     <Link to={`/show-book/${book._id}`}>
-                        { book.title }
+                        { book.fullname }
                     </Link>
                 </h2>
-                <p>{book.author}</p>
+                <p>{book.position}</p>
             </div>
         </div>
     )

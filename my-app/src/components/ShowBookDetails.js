@@ -46,15 +46,15 @@ class showBookDetails extends Component {
         <tbody>
           <tr>
             <td>Email</td>
-            <td>{ book.isbn }</td>
+            <td>{ book.email }</td>
           </tr>
           <tr>
             <td>Position</td>
-            <td>{ book.author }</td>
+            <td>{ book.position }</td>
           </tr>
           <tr>
             <td>Degrees</td>
-            <td>{ book.description }</td>
+            <td>{ book.degrees }</td>
           </tr>
         </tbody>
       </table>
@@ -72,7 +72,7 @@ class showBookDetails extends Component {
             </div>
             <br />
             <div className="col-md-8 m-auto">
-              <h1 className="display-4 text-center">{book.title}</h1>
+              <h1 className="display-4 text-center">{book.fullname}</h1>
               <br />
             </div>
           </div>

@@ -3,19 +3,23 @@
 const mongoose = require('mongoose');
 
 const BookSchema = new mongoose.Schema({
-  title: {
+  fullname: {
+    //title
     type: String,
     required: true
   },
-  isbn: {
+  email: {
+    //isbn
     type: String,
     required: true
   },
-  author: {
+  position: {
+    //author
     type: String,
     required: true
   },
-  description: {
+  degrees: {
+    //description
     type: String
   }
 });

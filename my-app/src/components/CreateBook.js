@@ -8,10 +8,10 @@ class CreateBook extends Component {
   constructor() {
     super();
     this.state = {
-      title: '',
-      isbn:'',
-      author:'',
-      description:''
+      fullname: '',
+      email:'',
+      position:'',
+      degrees:''
     };
   }
 
@@ -23,20 +23,20 @@ class CreateBook extends Component {
     e.preventDefault();
 
     const data = {
-      title: this.state.title,
-      isbn: this.state.isbn,
-      author: this.state.author,
-      description: this.state.description
+      fullname: this.state.fullname,
+      email: this.state.email,
+      position: this.state.position,
+      degrees: this.state.degrees
     };
 
     axios
       .post('http://localhost:8082/api/books', data)
       .then(res => {
         this.setState({
-          title: '',
-          isbn:'',
-          author:'',
-          description:''
+          fullname: '',
+          email:'',
+          position:'',
+          degrees:''
         })
         this.props.history.push('/');
       })
@@ -67,9 +67,9 @@ class CreateBook extends Component {
                   <input
                     type='text'
                     placeholder='Fullname'
-                    name='title'
+                    name='fullname'
                     className='form-control'
-                    value={this.state.title}
+                    value={this.state.fullname}
                     onChange={this.onChange}
                   />
                 </div>
@@ -79,9 +79,9 @@ class CreateBook extends Component {
                   <input
                     type='text'
                     placeholder='Email'
-                    name='isbn'
+                    name='email'
                     className='form-control'
-                    value={this.state.isbn}
+                    value={this.state.email}
                     onChange={this.onChange}
                   />
                 </div>
@@ -90,9 +90,9 @@ class CreateBook extends Component {
                   <input
                     type='text'
                     placeholder='Position'
-                    name='author'
+                    name='position'
                     className='form-control'
-                    value={this.state.author}
+                    value={this.state.position}
                     onChange={this.onChange}
                   />
                 </div>
@@ -101,9 +101,9 @@ class CreateBook extends Component {
                   <input
                     type='text'
                     placeholder='Degrees'
-                    name='description'
+                    name='degrees'
                     className='form-control'
-                    value={this.state.description}
+                    value={this.state.degrees}
                     onChange={this.onChange}
                   />
                 </div>
