@@ -1,1 +1,3 @@
-R&D project creating a website for university academic staff profiles
+This is the CISE SPEED Project Repo:
+The following resource was helpful in the development of the program...
+https://blog.logrocket.com/mern-stack-tutorial/#connecting
