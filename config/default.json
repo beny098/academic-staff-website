@@ -1,5 +1,5 @@
 {
-  "mongoURI": "mongodb+srv://CISE_PROJECT:CISE_PROJECT@speed-database.6wqfd.mongodb.net/?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://bensteele:6N4ehDad4D@academic-staff-database.wxp6m1s.mongodb.net/?retryWrites=true&w=majority",
   "PORT": 8082,
   "env": "dev"
 }

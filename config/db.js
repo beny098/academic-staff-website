@@ -1,9 +1,5 @@
 /**
- * @author @JimmyCSH
- *
- * The following script is used to interact with our MongoDB
- * database where we store the articles that we will use
- * for our SPEED application.
+ * This code is used to connect to the mongodb database where the profile data is stored 
  */
 
 const mongoose = require("mongoose");
