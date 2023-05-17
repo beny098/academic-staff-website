@@ -1,7 +1,7 @@
 {
   "name": "speed_project",
   "version": "1.0.0",
-  "description": "This is the CISE SPEED Project Repo",
+  "description": "R&D Project academic staff website",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
