@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #FFDDD2; /* Added to remove white strips at top and bottom of website */
+  background-color: #555B6E; /* Added to remove white strips at top and bottom of website */
 }
 
 .App-logo {
@@ -10,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #FFDDD2;
+  background-color: #555B6E;
   padding-bottom: 20px; /* trying to remove white stripe */
   min-height: 100vh;
   display: flex;
@@ -35,25 +35,25 @@
 }
 
 .CreateBook {
-  background-color: #FFDDD2;
+  background-color: #555B6E;
   min-height: 100vh;
   color: white;
 }
 
 .ShowBookDetails {
-  background-color: #FFDDD2;
+  background-color: #555B6E;
   min-height: 100vh;
   color: white;
 }
 
 .UpdateBookInfo {
-  background-color: #FFDDD2;
+  background-color: #555B6E;
   min-height: 100vh;
   color: white;
 }
 
 .ShowBookList {
-  background-color: #FFDDD2;
+  background-color: #555B6E;
   height: 100%;
   width: 100%;
   min-height: 100vh;
