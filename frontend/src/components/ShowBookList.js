@@ -60,13 +60,7 @@ class ShowBookList extends Component {
           </div>*/
 
           <div>
-            <head>
-              <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-              <link href="https://fonts.cdnfonts.com/css/satoshi?styles=135009,135005,135007,135002,135000" rel="stylesheet"></link>
-              <link rel="stylesheet" href="css/tailwind/tailwind.min.css"></link>
-              <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png"></link>
-              <script src="js/main.js"></script>
-            </head>
+            
             <section class="pb-12 md:pb-24 lg:pb-32 bg-black">
         <nav class="relative px-6 lg:px-16 py-9">
           <div class="flex items-center">
