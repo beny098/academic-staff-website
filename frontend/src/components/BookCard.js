@@ -8,7 +8,7 @@ const ProfileCard = (props) => {
     return(
         <div className="card-container">
             <Link to={`/show-book/${book._id}`}>
-            <img src="https://st3.depositphotos.com/6672868/13701/v/1600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="" />
+            <img src="https://www.seekpng.com/png/full/966-9665493_my-profile-icon-blank-profile-image-circle.png" alt="" />
             </Link>
             <div className="desc">
                 <h2>
