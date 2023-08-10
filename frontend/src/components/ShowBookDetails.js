@@ -49,19 +49,19 @@ class showBookDetails extends Component {
             <td>{ book.email }</td>
           </tr>
           <tr>
-            <td>Position</td>
+            <td>Current Position or Occupation</td>
             <td>{ book.position }</td>
           </tr>
           <tr>
-            <td>Degrees</td>
+            <td>Degrees, Certificates and Qualifications</td>
             <td>{ book.degrees }</td>
           </tr>
           <tr>
-            <td>Bio:</td>
+            <td>Bio and Hobbies</td>
             <td>{ book.bio }</td>
           </tr>
           <tr>
-            <td>Previous Positions</td>
+            <td>Previous Positions and Work History</td>
             <td>{ book.previousPositions }</td>
           </tr>
           <tr>
@@ -69,7 +69,7 @@ class showBookDetails extends Component {
             <td>{ book.publications }</td>
           </tr>
           <tr>
-            <td>Social</td>
+            <td>Social Media Links</td>
             <td>{ book.social }</td>
           </tr>
           <tr>
@@ -77,7 +77,7 @@ class showBookDetails extends Component {
             <td>{ book.contactDetails }</td>
           </tr>
           <tr>
-            <td>Areas of Study</td>
+            <td>Areas of Study and Interests</td>
             <td>{ book.areasOfStudy }</td>
           </tr>
         </tbody>
