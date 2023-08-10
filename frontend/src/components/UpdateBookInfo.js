@@ -121,7 +121,7 @@ class UpdateBookInfo extends Component {
             </div>
 
             <div className='form-group'>
-            <label htmlFor="position">Position</label>
+            <label htmlFor="position">Current Position or Occupation</label>
               <input
                 type='text'
                 placeholder='position'
@@ -133,7 +133,7 @@ class UpdateBookInfo extends Component {
             </div>
 
             <div className='form-group'>
-            <label htmlFor="degrees">Degrees</label>
+            <label htmlFor="degrees">Degrees, Certificates and Qualifications</label>
               <input
                 type='text'
                 placeholder='Degrees'
@@ -145,7 +145,7 @@ class UpdateBookInfo extends Component {
             </div>
 
             <div className='form-group'>
-            <label htmlFor="bio">Bio</label>
+            <label htmlFor="bio">Bio and Hobbies</label>
               <input
                 type='text'
                 placeholder='Bio'
@@ -157,7 +157,7 @@ class UpdateBookInfo extends Component {
             </div>
 
             <div className='form-group'>
-            <label htmlFor="previousPositions">Previous Positions</label>
+            <label htmlFor="previousPositions">Previous Positions and Work History</label>
               <input
                 type='text'
                 placeholder='previousPositions'
@@ -181,7 +181,7 @@ class UpdateBookInfo extends Component {
             </div>
 
             <div className='form-group'>
-            <label htmlFor="social">Social</label>
+            <label htmlFor="social">Social Media Links</label>
               <input
                 type='text'
                 placeholder='social'
@@ -205,7 +205,7 @@ class UpdateBookInfo extends Component {
             </div>
 
             <div className='form-group'>
-            <label htmlFor="areasOfStudy">Areas of Study</label>
+            <label htmlFor="areasOfStudy">Areas of Study and Interests</label>
               <input
                 type='text'
                 placeholder='areasOfStudy'
