@@ -56,6 +56,30 @@ class showBookDetails extends Component {
             <td>Degrees</td>
             <td>{ book.degrees }</td>
           </tr>
+          <tr>
+            <td>Bio:</td>
+            <td>{ book.bio }</td>
+          </tr>
+          <tr>
+            <td>Previous Positions</td>
+            <td>{ book.previousPositions }</td>
+          </tr>
+          <tr>
+            <td>Publications</td>
+            <td>{ book.publications }</td>
+          </tr>
+          <tr>
+            <td>Social</td>
+            <td>{ book.social }</td>
+          </tr>
+          <tr>
+            <td>Contact Details</td>
+            <td>{ book.contactDetails }</td>
+          </tr>
+          <tr>
+            <td>Areas of Study</td>
+            <td>{ book.areasOfStudy }</td>
+          </tr>
         </tbody>
       </table>
     </div>

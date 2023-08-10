@@ -10,7 +10,12 @@ class UpdateBookInfo extends Component {
       fullname: '',
       email: '',
       position: '',
-      degrees: ''
+      degrees: '',
+      bio: ' ',
+      previousPublications: ' ',
+      social: ' ',
+      contactDetails: ' ',
+      areasOfStudy: ' '
     };
   }
 
@@ -24,7 +29,13 @@ class UpdateBookInfo extends Component {
           fullname: res.data.fullname,
           email: res.data.email,
           position: res.data.position,
-          degrees: res.data.degrees
+          degrees: res.data.degrees,
+          bio: res.data.bio,
+          previousPositions: res.data.previousPositions,
+          Publications: res.data.publications,
+          social: res.data.socials,
+          contactDetails: res.data.contactdetails,
+          areasOfStudy: res.data.areasofstudy
         })
       })
       .catch(err => {
@@ -43,7 +54,13 @@ class UpdateBookInfo extends Component {
       fullname: this.state.fullname,
       email: this.state.email,
       position: this.state.position,
-      degrees: this.state.degrees
+      degrees: this.state.degrees,
+      bio: this.state.bio,
+      previousPositions: this.state.previousPositions,
+      publications: this.state.publications,
+      social: this.state.social,
+      contactDetails: this.state.contactDetails,
+      areasOfStudy: this.state.areasOfStudy
     };
 
     axios
@@ -123,6 +140,78 @@ class UpdateBookInfo extends Component {
                 name='degrees'
                 className='form-control'
                 value={this.state.degrees}
+                onChange={this.onChange}
+              />
+            </div>
+
+            <div className='form-group'>
+            <label htmlFor="bio">Bio</label>
+              <input
+                type='text'
+                placeholder='Bio'
+                name='bio'
+                className='form-control'
+                value={this.state.bio}
+                onChange={this.onChange}
+              />
+            </div>
+
+            <div className='form-group'>
+            <label htmlFor="previousPositions">Previous Positions</label>
+              <input
+                type='text'
+                placeholder='previousPositions'
+                name='previousPositions'
+                className='form-control'
+                value={this.state.previousPositions}
+                onChange={this.onChange}
+              />
+            </div>
+
+            <div className='form-group'>
+            <label htmlFor="publications">Publications</label>
+              <input
+                type='text'
+                placeholder='publications'
+                name='publications'
+                className='form-control'
+                value={this.state.publications}
+                onChange={this.onChange}
+              />
+            </div>
+
+            <div className='form-group'>
+            <label htmlFor="social">Social</label>
+              <input
+                type='text'
+                placeholder='social'
+                name='social'
+                className='form-control'
+                value={this.state.social}
+                onChange={this.onChange}
+              />
+            </div>
+
+            <div className='form-group'>
+            <label htmlFor="contactDetails">Contact Details</label>
+              <input
+                type='text'
+                placeholder='contactDetails'
+                name='contactDetails'
+                className='form-control'
+                value={this.state.contactDetails}
+                onChange={this.onChange}
+              />
+            </div>
+
+            <div className='form-group'>
+            <label htmlFor="areasOfStudy">Areas of Study</label>
+              <input
+                type='text'
+                placeholder='areasOfStudy'
+                name='areasOfStudy'
+                className='form-control'
+                value={this.state.areasOfStudy}
                 onChange={this.onChange}
               />
             </div>
