@@ -11,11 +11,11 @@ class UpdateBookInfo extends Component {
       email: '',
       position: '',
       degrees: '',
-      bio: ' ',
-      previousPublications: ' ',
-      social: ' ',
-      contactDetails: ' ',
-      areasOfStudy: ' '
+      bio: '',
+      previousPublications: '',
+      social: '',
+      contactDetails: '',
+      areasOfStudy: ''
     };
   }
 
@@ -32,8 +32,8 @@ class UpdateBookInfo extends Component {
           degrees: res.data.degrees,
           bio: res.data.bio,
           previousPositions: res.data.previousPositions,
-          Publications: res.data.publications,
-          social: res.data.socials,
+          publications: res.data.publications,
+          social: res.data.social,
           contactDetails: res.data.contactdetails,
           areasOfStudy: res.data.areasofstudy
         })
