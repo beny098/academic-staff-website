@@ -21,7 +21,27 @@ const BookSchema = new mongoose.Schema({
   degrees: {
     //description
     type: String
+  },
+  bio: {
+    type: String
+  },
+  previousPositions: {
+    type: String
+  },
+  publications: {
+    type: String
+  },
+  social: {
+    type: String
+  },
+  contactDetails: {
+    type: String
+  },
+  areasOfStudy: {
+    type: String
   }
+
+
 });
 
 module.exports = Book = mongoose.model('book', BookSchema);

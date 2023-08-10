@@ -11,7 +11,13 @@ class CreateBook extends Component {
       fullname: '',
       email:'',
       position:'',
-      degrees:''
+      degrees:'',
+      bio:'',
+      previousPositions:'',
+      publications:'',
+      social:'',
+      contactDetails:'',
+      areasOfStudy:''
     };
   }
 
@@ -26,7 +32,13 @@ class CreateBook extends Component {
       fullname: this.state.fullname,
       email: this.state.email,
       position: this.state.position,
-      degrees: this.state.degrees
+      degrees: this.state.degrees,
+      bio: this.state.bio,
+      previousPositions: this.state.previousPositions,
+      publications: this.state.publications,
+      social: this.state.social,
+      contactDetails: this.state.contactDetails,
+      areasOfStudy: this.state.areasOfStudy
     };
 
     axios
@@ -36,7 +48,13 @@ class CreateBook extends Component {
           fullname: '',
           email:'',
           position:'',
-          degrees:''
+          degrees:'',
+          bio:'',
+          previousPositions:'',
+          publications:'',
+          social:'',
+          contactDetails:'',
+          areasOfStudy:''
         })
         this.props.history.push('/');
       })
@@ -104,6 +122,72 @@ class CreateBook extends Component {
                     name='degrees'
                     className='form-control'
                     value={this.state.degrees}
+                    onChange={this.onChange}
+                  />
+                </div>
+
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    placeholder='Bio'
+                    name='bio'
+                    className='form-control'
+                    value={this.state.bio}
+                    onChange={this.onChange}
+                  />
+                </div>
+
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    placeholder='Previous Positions'
+                    name='previousPositions'
+                    className='form-control'
+                    value={this.state.previousPositions}
+                    onChange={this.onChange}
+                  />
+                </div>
+
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    placeholder='Publications'
+                    name='publications'
+                    className='form-control'
+                    value={this.state.publications}
+                    onChange={this.onChange}
+                  />
+                </div>
+
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    placeholder='Social'
+                    name='social'
+                    className='form-control'
+                    value={this.state.social}
+                    onChange={this.onChange}
+                  />
+                </div>
+
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    placeholder='Contact Details'
+                    name='contactDetails'
+                    className='form-control'
+                    value={this.state.contactDetails}
+                    onChange={this.onChange}
+                  />
+                </div>
+
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    placeholder='Areas Of Study'
+                    name='areasOfStudy'
+                    className='form-control'
+                    value={this.state.areasOfStudy}
                     onChange={this.onChange}
                   />
                 </div>
