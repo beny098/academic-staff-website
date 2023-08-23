@@ -110,16 +110,13 @@ class showBookDetails extends Component {
             </div>
 
             <div className="col-md-6">
-              <Link to={`/edit-book/${book._id}`} className="btn btn-outline-info btn-lg btn-block">
+              <Link to={`/edit-book/${book._id}`} class="button">
                     Edit Profile
               </Link>
               <br />
             </div>
 
           </div>
-            {/* <br />
-            <button type="button" class="btn btn-outline-info btn-lg btn-block">Edit Book</button>
-            <button type="button" class="btn btn-outline-danger btn-lg btn-block">Delete Book</button> */}
 
         </div>
       </div>
