@@ -110,7 +110,7 @@ class showBookDetails extends Component {
             </div>
 
             <div className="button">
-              <Link to={`/edit-book/${book._id}`} className="button">
+              <Link to={`/edit-book/${book._id}`}>
                     Edit Profile
               </Link>
               <br />
