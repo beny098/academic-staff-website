@@ -109,7 +109,7 @@ class showBookDetails extends Component {
               <button type="button" onClick={this.onDeleteClick.bind(this,book._id)}>Delete Profile</button><br />
             </div>
 
-            <div className="col-md-6">
+            <div className="button">
               <Link to={`/edit-book/${book._id}`} className="button">
                     Edit Profile
               </Link>
