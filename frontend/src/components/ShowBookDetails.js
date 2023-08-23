@@ -106,7 +106,7 @@ class showBookDetails extends Component {
 
           <div className="row">
             <div className="col-md-6">
-              <button type="button" onClick={this.onDeleteClick.bind(this,book._id)}>Delete Profile</button><br />
+              <button type="button" className="button" onClick={this.onDeleteClick.bind(this,book._id)}>Delete Profile</button><br />
             </div>
 
             <div className="button">
