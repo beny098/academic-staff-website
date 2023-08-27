@@ -41,48 +41,66 @@ class showBookDetails extends Component {
   render() {
 
     const book = this.state.book;
-    let BookItem = <div>
-      <table className="table table-hover table-dark">
-        <tbody>
-          <tr>
-            <td>Email</td>
-            <td>{ book.email }</td>
-          </tr>
-          <tr>
-            <td>Current Position or Occupation</td>
-            <td>{ book.position }</td>
-          </tr>
-          <tr>
-            <td>Degrees, Certificates and Qualifications</td>
-            <td>{ book.degrees }</td>
-          </tr>
-          <tr>
-            <td>Bio and Hobbies</td>
-            <td>{ book.bio }</td>
-          </tr>
-          <tr>
-            <td>Previous Positions and Work History</td>
-            <td>{ book.previousPositions }</td>
-          </tr>
-          <tr>
-            <td>Publications</td>
-            <td>{ book.publications }</td>
-          </tr>
-          <tr>
-            <td>Social Media Links</td>
-            <td>{ book.social }</td>
-          </tr>
-          <tr>
-            <td>Contact Details</td>
-            <td>{ book.contactDetails }</td>
-          </tr>
-          <tr>
-            <td>Areas of Study and Interests</td>
-            <td>{ book.areasOfStudy }</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    let BookItem = (
+      <div className="book-item">
+        <div className="grid-container">
+          <div className="grid-item">
+            <strong>Email</strong>
+          </div>
+          <div className="grid-item">
+            {book.email}
+          </div>
+          <div className="grid-item">
+            <strong>Current Position or Occupation</strong>
+          </div>
+          <div className="grid-item">
+            {book.position}
+          </div>
+          <div className="grid-item">
+            <strong>Degrees, Certificates and Qualifications</strong>
+          </div>
+          <div className="grid-item">
+            {book.degrees}
+          </div>
+          <div className="grid-item">
+            <strong>Bio and Hobbies</strong>
+          </div>
+          <div className="grid-item">
+            {book.bio}
+          </div>
+          <div className="grid-item">
+            <strong>Previous Positions and Work History</strong>
+          </div>
+          <div className="grid-item">
+            {book.previousPositions}
+          </div>
+          <div className="grid-item">
+            <strong>Publications</strong>
+          </div>
+          <div className="grid-item">
+            {book.publications}
+          </div>
+          <div className="grid-item">
+            <strong>Social Media Links</strong>
+          </div>
+          <div className="grid-item">
+            {book.social}
+          </div>
+          <div className="grid-item">
+            <strong>Contact Details</strong>
+          </div>
+          <div className="grid-item">
+            {book.contactDetails}
+          </div>
+          <div className="grid-item">
+            <strong>Areas of Study and Interests</strong>
+          </div>
+          <div className="grid-item">
+            {book.areasOfStudy}
+          </div>
+        </div>
+      </div>
+    );
 
     return (
       <div className="ShowBookDetails">
