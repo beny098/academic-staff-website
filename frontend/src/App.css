@@ -176,10 +176,9 @@
   text-decoration: none;
   position: relative;
 }
-
 .title::after {
   content: "";
-  position: absolute; 
+  position: fixed; 
   width: 100%; 
   height: 3px; 
   bottom: -5px;
