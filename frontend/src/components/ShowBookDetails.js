@@ -43,62 +43,26 @@ class showBookDetails extends Component {
     const book = this.state.book;
     let BookItem = (
       <div className="book-item">
-        <div className="grid-container">
-          <div className="grid-item">
-            <strong>Email</strong>
-          </div>
-          <div className="grid-item">
-            {book.email}
-          </div>
-          <div className="grid-item">
-            <strong>Current Position or Occupation</strong>
-          </div>
-          <div className="grid-item">
-            {book.position}
-          </div>
-          <div className="grid-item">
-            <strong>Degrees, Certificates and Qualifications</strong>
-          </div>
-          <div className="grid-item">
-            {book.degrees}
-          </div>
-          <div className="grid-item">
-            <strong>Bio and Hobbies</strong>
-          </div>
-          <div className="grid-item">
-            {book.bio}
-          </div>
-          <div className="grid-item">
-            <strong>Previous Positions and Work History</strong>
-          </div>
-          <div className="grid-item">
-            {book.previousPositions}
-          </div>
-          <div className="grid-item">
-            <strong>Publications</strong>
-          </div>
-          <div className="grid-item">
-            {book.publications}
-          </div>
-          <div className="grid-item">
-            <strong>Social Media Links</strong>
-          </div>
-          <div className="grid-item">
-            {book.social}
-          </div>
-          <div className="grid-item">
-            <strong>Contact Details</strong>
-          </div>
-          <div className="grid-item">
-            {book.contactDetails}
-          </div>
-          <div className="grid-item">
-            <strong>Areas of Study and Interests</strong>
-          </div>
-          <div className="grid-item">
-            {book.areasOfStudy}
-          </div>
+        <div className="grid-container-one">
+        <div class="grid-item-two">
+          <strong>{book.fullname}</strong>
+          <strong>Email:</strong> {book.email}
+          <strong>Current Position or Occupation</strong> {book.position}
         </div>
+        <div class="grid-item-four">
+          <strong>Bio:</strong>
+          {book.bio}
+        </div>
+      </div>
+
+      <div className="grid-container-two">
+        <div class="grid-item-three">
+          <strong>Degrees, Certificates and Qualifications</strong>
+          {book.degrees}
+          <strong>Previous Positions and Work History</strong>
+          {book.previousPositions}
+        </div>
+      </div>
       </div>
     );
 
