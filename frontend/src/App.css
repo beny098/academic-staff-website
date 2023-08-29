@@ -107,7 +107,7 @@
 .grid-container-one {
   display: grid;
   grid-template-columns: auto auto;
-  background: #D9D9D9;
+  background: #000000;
   padding: 10px;
   width: 654px;
   height: 540px;
@@ -118,7 +118,7 @@
 .grid-container-two {
   display: grid;
   grid-template-columns: auto auto;
-  background: #D9D9D9;
+  background: #000000;
   padding: 10px;
   width: 502px;
   height: 427px;
@@ -127,7 +127,7 @@
   top: 400px;
 }
 .grid-item-one {
-  border: 1px solid #D9D9D9;
+  border: 1px solid #000000;
   padding: 20px;
   width: 226px;
   height: 245px;
@@ -136,7 +136,7 @@
   left: 240px;
 }
 .grid-item-two {
-  border: 1px solid #D9D9D9;
+  border: 1px solid #000000;
   padding: 20px;
   width: 331px;
   height: 100px;
