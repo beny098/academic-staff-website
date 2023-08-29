@@ -166,14 +166,17 @@
   font-size: 12pt;
   text-align: left;
   color: #000000;
+  font-weight: bold;
 }
 .title{
   font-size: 16pt;
   text-align: left;
   color: #000000;
+  font-weight: bold;
 }
 .big-title{
   font-size: 20pt;
   text-align: left;
   color: #000000;
+  font-weight: bold;
 }
