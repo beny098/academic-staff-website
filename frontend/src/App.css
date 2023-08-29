@@ -129,8 +129,6 @@
 .grid-item-one {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
-  text-align: center;
   width: 226px;
   height: 245px;
   position: fixed;
@@ -140,8 +138,6 @@
 .grid-item-two {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
-  text-align: center;
   width: 331px;
   height: 100px;
   position: fixed;
@@ -151,8 +147,6 @@
 .grid-item-four {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
-  text-align: center;
   width: 610px;
   height: 100px;
   position: fixed;
@@ -162,11 +156,21 @@
 .grid-item-three {
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
-  text-align: center;
   width: 300px;
   height: 60px;
   position: sticky;
   bottom: 180px;
   left: 400;
+}
+.body-text{
+  font-size: 12pt;
+  text-align: left;
+}
+.title{
+  font-size: 16pt;
+  text-align: left;
+}
+.big-title{
+  font-size: 20pt;
+  text-align: left;
 }

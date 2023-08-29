@@ -45,22 +45,22 @@ class showBookDetails extends Component {
       <div className="book-item">
         <div className="grid-container-one">
         <div class="grid-item-two">
-          <strong>{book.fullname}</strong>
-          <strong>Email:</strong> {book.email}
-          <strong>Current Position or Occupation</strong> {book.position}
+          <span class="big-title">{book.fullname}</span> <br></br>
+          <span class="body-text">Email:</span> {book.email} <br></br>
+          <span class="body-text">Current Position or Occupation</span> {book.position} <br></br>
         </div>
         <div class="grid-item-four">
-          <strong>Bio:</strong>
-          {book.bio}
+          <span class="title">Bio:</span>
+          <span class="body-text">{book.bio}</span> <br></br>
         </div>
       </div>
 
       <div className="grid-container-two">
         <div class="grid-item-three">
-          <strong>Degrees, Certificates and Qualifications</strong>
-          {book.degrees}
-          <strong>Previous Positions and Work History</strong>
-          {book.previousPositions}
+          <span class="title">Degrees, Certificates and Qualifications</span> <br></br>
+          <span class="body-text">{book.degrees} </span><br></br>
+          <span class="title">Previous Positions and Work History</span> <br></br>
+          <span class="body-text">{book.previousPositions} </span><br></br>
         </div>
       </div>
       </div>
