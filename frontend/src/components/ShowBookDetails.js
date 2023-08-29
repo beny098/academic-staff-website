@@ -46,11 +46,11 @@ class showBookDetails extends Component {
         <div className="grid-container-one">
         <div class="grid-item-two">
           <span class="big-title">{book.fullname}</span> <br></br>
-          <span class="body-text">Email:</span> {book.email} <br></br>
+          <span class="body-text">Email: </span> {book.email} <br></br>
           <span class="body-text">Current Position or Occupation</span> {book.position} <br></br>
         </div>
         <div class="grid-item-four">
-          <span class="title">Bio:</span>
+          <span class="title">Bio: </span> <br></br>
           <span class="body-text">{book.bio}</span> <br></br>
         </div>
       </div>

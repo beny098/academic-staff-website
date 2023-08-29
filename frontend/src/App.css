@@ -127,7 +127,7 @@
   top: 400px;
 }
 .grid-item-one {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid #D9D9D9;
   padding: 20px;
   width: 226px;
   height: 245px;
@@ -136,7 +136,7 @@
   left: 240px;
 }
 .grid-item-two {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid #D9D9D9;
   padding: 20px;
   width: 331px;
   height: 100px;
@@ -145,7 +145,7 @@
   left: 520px;
 }
 .grid-item-four {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid #D9D9D9;
   padding: 20px;
   width: 610px;
   height: 100px;
@@ -154,7 +154,7 @@
   left: 240px;
 }
 .grid-item-three {
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid #D9D9D9;
   padding: 20px;
   width: 300px;
   height: 60px;
@@ -165,12 +165,15 @@
 .body-text{
   font-size: 12pt;
   text-align: left;
+  color: #000000;
 }
 .title{
   font-size: 16pt;
   text-align: left;
+  color: #000000;
 }
 .big-title{
   font-size: 20pt;
   text-align: left;
+  color: #000000;
 }
