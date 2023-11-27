@@ -14,7 +14,7 @@ class showBookDetails extends Component {
   componentDidMount() {
     // console.log("Print id: " + this.props.match.params.id);
     axios
-      .get('https://academic-staff-website.herokuapp.com/api/books/'+this.props.match.params.id)
+      .get('https://academic-staff-website-3c01a8711142.herokuapp.com/api/books/'+this.props.match.params.id)
       .then(res => {
         // console.log("Print-showBookDetails-API-response: " + res.data);
         this.setState({
@@ -28,7 +28,7 @@ class showBookDetails extends Component {
 
   onDeleteClick (id) {
     axios
-      .delete('https://academic-staff-website.herokuapp.com/api/books/'+id)
+      .delete('https://academic-staff-website-3c01a8711142.herokuapp.com/api/books/'+id)
       .then(res => {
         this.props.history.push("/");
       })
