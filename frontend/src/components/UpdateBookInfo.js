@@ -34,8 +34,8 @@ class UpdateBookInfo extends Component {
           previousPositions: res.data.previousPositions,
           publications: res.data.publications,
           social: res.data.social,
-          contactDetails: res.data.contactdetails,
-          areasOfStudy: res.data.areasofstudy
+          contactDetails: res.data.contactDetails,
+          areasOfStudy: res.data.areasOfStudy
         })
       })
       .catch(err => {
